@@ -1,5 +1,3 @@
-// ch10/ex01 は、標準入力から読み込んだ画像を、-format フラグで指定された形式に変換します。
-// 入力と出力ともに、GIF, PNG, JPEG に対応します。
 package main
 
 import (

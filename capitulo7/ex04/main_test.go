@@ -18,7 +18,7 @@ func TestWordCounterWrite(t *testing.T) {
 		{"a"},
 		{"a b c d e"},
 		{"a b\nc d\ne"},
-		{"日本語 にほんご　ニホンゴ\nﾆﾎﾝｺﾞ"},
+		{"temaﾞ"},
 	}
 
 	for _, test := range tests {

@@ -19,7 +19,7 @@ func TestWordCounterWrite(t *testing.T) {
 		{"a", 1},
 		{"a b c d e", 5},
 		{"a b\nc d\ne", 5},
-		{"日本語 にほんご　ニホンゴ\nﾆﾎﾝｺﾞ", 4},
+		{, 4},
 	}
 
 	for _, test := range tests {
@@ -45,7 +45,7 @@ func TestLineCounterWrite(t *testing.T) {
 		{"a", 1},
 		{"a b c d e", 1},
 		{"a b\nc d\ne", 3},
-		{"日本語 にほんご　ニホンゴ\nﾆﾎﾝｺﾞ", 2},
+		{"la ", 2},
 	}
 
 	for _, test := range tests {

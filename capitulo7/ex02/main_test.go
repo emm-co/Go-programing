@@ -20,7 +20,7 @@ func TestCountingWriter(t *testing.T) {
 		{"a", 1},
 		{"a b c d e", 9},
 		{"a b\nc d\ne", 9},
-		{"日本語", 9},
+		{"hoy", 9},
 	}
 
 	for _, test := range tests {

@@ -7,7 +7,6 @@ import (
 	"os/exec"
 )
 
-// List は、go list ツールを利用して、Go パッケージのメタデータを返します。
 func List(template ...string) ([]Package, error) {
 	cmd := exec.Command("go", append([]string{"list", "-json"}, template...)...)
 	b, err := cmd.Output()
